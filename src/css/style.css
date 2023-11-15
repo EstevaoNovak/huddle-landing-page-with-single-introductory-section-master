@@ -15,7 +15,57 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: var(--clr-primary-violet);
+    color: var(--clr-texts);
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .main-image {
+    width: 50%;
+}
+
+.hero .informations {
+    width: 50%;
+}
+
+.hero .informations h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero .informations p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .informations button {
+    padding: 15px 60px;
+    border-radius: 15px;
+    border: none;
+    color: var(--clr-primary-violet);
+}
+
+.footer a {
+    color: var(--clr-texts);
+    font-size: 30px;
+    
 }
